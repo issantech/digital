@@ -1,0 +1,159 @@
+html{
+    width: 100%;
+    font-family: 'Poppins,Lato';
+}
+
+.mainview{
+    background-image: url("/source/img/IT\ Web\ Banner.jpg");
+    height: 500px;
+    background-size: cover;
+}
+
+a .nav-link{
+    color:white !important
+}
+
+h3.main-title{
+    font-family: "Poppins";
+    color:white;
+    font-weight: 400;
+    font-size: 5em;
+}
+
+.OtherWork h3{
+    font-size: 2em;
+    font-family: 'Poppins';
+    color: #000942;
+
+}
+
+
+.OtherWork p{
+font-family: 'Poppins';
+    
+
+}
+
+.whoarewe h3{
+    font-size: 2em;
+    font-family: 'Poppins';
+    color: #000942;
+
+}
+
+.whoarewe{
+    
+    font-family: 'Poppins';
+}
+
+.whoarewe p{
+    
+    font-family: 'Poppins';
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+a.nav-link:hover,li.nav-item:hover{
+    text-decoration: underline;
+    text-decoration-color: orange;
+    color:orange;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: 20px;
+}
+
+.space{
+    height: 50px;
+}
+
+.row{
+    margin: 0px;
+}
+.main-work h3{
+    color: #000942;
+    font-family: 'Poppins';
+    padding-top: 6px;
+    font-size: 01.5vw;
+}
+
+.first-footer a{
+color:black;
+font-family: 'Poppins';
+font-weight: 300;
+}
+
+@media(min-width:1366px){
+    h3.main-title{
+        padding-top: 100px;
+    }
+
+    .software p, .web p{
+        text-align: left;
+        font-size: 0.9em;
+        padding-left:10px;
+        font-family: 'Poppins';
+        font-weight: 300;
+        color:black
+    }
+
+    .custom{
+        text-decoration-color: orange;
+    }
+}
+
+
+
+.high-space{
+    height:200px
+}
+
+.location{
+font-family: 'Poppins';
+font-size: 15px;
+color: #000942;
+}
+
+.number{
+    font-family: 'Poppins';
+font-size: 25px;
+color: #000942;
+}
+
+.number:hover{
+    font-family: 'Poppins';
+font-size: 25px;
+color: #000942;
+text-decoration: none;
+text-decoration-color: #000942;
+}
+
+footer{
+    background-color:rgb(243, 243, 243);
+    height:300px;
+}
+
+@media(max-width:600px){
+    h3.main-title{
+        padding-left: 15vw;
+        padding-top: 120px;
+        font-size: 3em;
+    }
+
+    .whoarewe p{
+    
+        font-family: 'Poppins';
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .main-work h3{
+        color: #000942;
+        font-family: 'Poppins';
+        padding-top: 6px;
+        padding-left: 20px;
+        margin-left: 20px;
+        font-size: 4vw;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+}
+
