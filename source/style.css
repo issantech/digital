@@ -4,7 +4,7 @@ html{
 }
 
 .mainview{
-    background-image: url("./source/img/IT\ Web\ Banner.jpg");
+    background-image: src("../source/img/IT\ Web\ Banner.jpg");
     height: 500px;
     background-size: cover;
 }
