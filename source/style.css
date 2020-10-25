@@ -3,6 +3,12 @@ html{
     font-family: 'Poppins,Lato';
 }
 
+nav.navbar.navbar-expand-lg.navbar-white:hover{
+background-color: white !important;    
+}
+
+
+
 .mainview{
     background-image: url("../source/img/IT\ Web\ Banner.jpg");
     height: 500px;
@@ -17,7 +23,7 @@ h3.main-title{
     font-family: "Poppins";
     color:white;
     font-weight: 400;
-    font-size: 5em;
+    font-size: 2em;
 }
 
 .OtherWork h3{
@@ -44,6 +50,8 @@ font-family: 'Poppins';
 .whoarewe{
     
     font-family: 'Poppins';
+    background-color: rgb(243, 243, 243);
+    padding-bottom: 1em;
 }
 
 .whoarewe p{
@@ -59,6 +67,13 @@ a.nav-link:hover,li.nav-item:hover{
     color:orange;
     text-decoration-skip-ink: auto;
     text-decoration-thickness: 20px;
+}
+
+span.digital-focus{
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: 10px;
 }
 
 .space{
@@ -135,7 +150,7 @@ footer{
     h3.main-title{
         padding-left: 15vw;
         padding-top: 120px;
-        font-size: 3em;
+        font-size: 1em;
     }
 
     .whoarewe p{
@@ -157,3 +172,40 @@ footer{
     }
 }
 
+
+
+.essential-1{
+    background-color: #ffffff;
+    background-size: cover;
+    height: 70px;
+    animation-name: fadeIn;
+    padding-bottom: 80px;
+    transition: 0.3s
+
+}
+
+.essential-1:hover{
+    background-color: #000942;
+    background-size: cover;
+    color:white;
+    height: 50px;
+    
+
+}
+
+.essential-1 h3{
+    
+    font-weight:500;
+    padding-top:0.5em;
+    font-family: 'Poppins'
+    
+}
+
+.essential-m:hover{
+    background-color: #000942;
+    background-size: cover;
+    color:white;
+    height: 50px;
+    
+
+}
