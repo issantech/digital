@@ -189,6 +189,13 @@ footer{
         text-align: center;
         padding-bottom: 40px;
     }
+
+    .digital-trans.text-center.pt-lg-3.pb-lg-3 {
+        padding-left: 02vw;
+        padding-right: 02vw;
+        padding-bottom: 3em;
+        padding-top: 3em;
+    }
 }
 
 
@@ -246,8 +253,8 @@ div.img-fluid.softdev img{
 }
 
 .digital-trans.text-center.pt-lg-3.pb-lg-3 {
-    padding-left: 10em;
-    padding-right: 10em;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 
