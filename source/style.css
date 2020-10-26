@@ -99,9 +99,17 @@ span.digital-focus{
 }
 
 .first-footer a{
-color:black;
+color:white;
 font-family: 'Poppins';
 font-weight: 300;
+}
+
+.first-footer a:hover{
+    text-decoration: underline;
+    text-decoration-color: orange;
+    
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: 20px;
 }
 
 @media(min-width:1366px){
@@ -152,7 +160,7 @@ text-decoration-color: #000942;
 }
 
 footer{
-    background-color:rgb(243, 243, 243);
+    background-color:#000942;
     height:300px;
 }
 
@@ -209,6 +217,11 @@ footer{
 
     div.img-fluid.softdev{
         padding-top:40px !important;
+    }
+
+    footer{
+        background-color:#000942;
+        height:400px;
     }
 }
 
@@ -313,4 +326,21 @@ div.img-fluid.softdev img{
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom right;
+}
+
+p.number a{
+    color: white;
+}
+
+p.number a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+p.location{
+    color:white;
+}
+
+.card-title{
+    font-family: 'Poppins';
 }
