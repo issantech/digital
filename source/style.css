@@ -158,7 +158,7 @@ footer{
     }
 
     div.img-fluid.softdev img{
-        height:500vw;
+        height:50vw !important;
         width:auto;
     }
 
