@@ -95,6 +95,7 @@ span.digital-focus{
     font-family: 'Poppins';
     padding-top: 6px;
     font-size: 01.5vw;
+    
 }
 
 .first-footer a{
@@ -162,6 +163,11 @@ footer{
         font-size: 1.8em;
     }
 
+    .formula-1{
+        padding-left: 80px ;
+        padding-bottom: 20px;
+    }
+
     div.img-fluid.softdev img{
         height:50vw !important;
         width:auto;
@@ -182,12 +188,9 @@ footer{
     .main-work h3{
         color: #000942;
         font-family: 'Poppins';
-        padding-top: 6px;
-        padding-left: 20px;
-        margin-left: 20px;
         font-size: 4vw;
         text-align: center;
-        padding-bottom: 40px;
+        
     }
 
     .digital-trans.text-center.pt-lg-3.pb-lg-3 {
@@ -195,6 +198,17 @@ footer{
         padding-right: 02vw;
         padding-bottom: 3em;
         padding-top: 3em;
+    }
+
+    div.img-fluid.softdev img{
+        height:18.6vw;
+        width:auto;
+        padding-bottom: 20px;
+        
+    }
+
+    div.img-fluid.softdev{
+        padding-top:40px !important;
     }
 }
 
@@ -260,7 +274,7 @@ div.img-fluid.softdev img{
 
 .showcase{
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(0, 91, 109) 100%); 
-    height: 100rem;
+    height: 50rem;
 }
 
 .digital-btn{
@@ -272,4 +286,31 @@ div.img-fluid.softdev img{
 .digital-btn:hover{
     background-color: rgb(255, 0, 55);
     border-color: rgb(255, 0, 55);
+}
+
+
+/*Hover Underline Animate*/
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: orange;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom right;
 }
