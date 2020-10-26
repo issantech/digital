@@ -103,6 +103,8 @@ font-weight: 300;
         padding-top: 100px;
     }
 
+    
+
     .software p, .web p{
         text-align: left;
         font-size: 0.9em;
@@ -153,6 +155,11 @@ footer{
         padding-left: 05vw;
         padding-top: 120px;
         font-size: 1.8em;
+    }
+
+    div.img-fluid.softdev img{
+        height:500vw;
+        width:auto;
     }
 
     .mainview{
@@ -218,7 +225,12 @@ footer{
 }
 
 
+div.img-fluid.softdev img{
+    height:18.6vw;
+    width:auto;
+}
+
 .showcase{
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(0, 91, 109) 100%); 
     height: 100rem;
 }
