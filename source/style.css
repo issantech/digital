@@ -117,7 +117,7 @@ font-weight: 300;
         padding-top: 100px;
     }
 
-    
+  
 
     .software p, .web p{
         text-align: left;
@@ -169,6 +169,25 @@ footer{
         padding-left: 05vw;
         padding-top: 120px;
         font-size: 1.8em;
+    }
+
+    div.col-lg-4.pt-lg-4.vids{
+        background-image: url("./img/Techy\ Women.png");
+        background-size: cover;
+        background-position: right;
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 200px;
+        }
+
+    h3.action{
+        padding-top: 1em !important;
+        font-size: 1em !important;
+    }
+
+
+    .col-lg-6{
+        max-width: 56%;
     }
 
     .formula-1{
@@ -347,6 +366,49 @@ p.location{
 
 
 .premiershow{
-    height: 200px;
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(0, 91, 109) 100%); 
+    height: 300px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%); 
+}
+
+h3.action{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    padding-top: 2em;
+}
+
+p.action{
+    color:white;
+    font-size: 0.8em;
+}
+
+button.btn.btn-primary{
+    border-radius: 40px;
+    background-color: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+div.col-lg-4.pt-lg-4.vids{
+background-image: url("./img/Techy\ Women.png");
+background-size: cover;
+background-repeat: no-repeat;
+height: 300px;
+width: 200px;
+}
+
+@media(min-width:992px){
+.col-lg-6{
+    padding-left: 90px;
+    flex: none !important;
+    max-width: 56% !important;
+}
+
+
+}
+
+div.row.pl-xl-5.pitch{
+padding-left: 1rem !important;
 }
