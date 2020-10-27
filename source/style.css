@@ -344,3 +344,9 @@ p.location{
 .card-title{
     font-family: 'Poppins';
 }
+
+
+.premiershow{
+    height: 200px;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(0, 91, 109) 100%); 
+}
