@@ -33,6 +33,10 @@ h3.main-title{
     font-size: 2em;
 }
 
+.OtherWork{
+    display: none;
+}
+
 .OtherWork h3{
     font-size: 2em;
     font-family: 'Poppins';
@@ -411,4 +415,24 @@ width: 200px;
 
 div.row.pl-xl-5.pitch{
 padding-left: 1rem !important;
+}
+
+p.email a{
+    font-family: "Poppins";
+    color:white !important;
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+p.email a:hover{
+    text-decoration: none;
+}
+
+.testimony-1 h3{
+    color: #000942;
+    font-family: 'Poppins';
+}
+
+div.mini-space{
+    height: 20px;
 }
