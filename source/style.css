@@ -436,3 +436,50 @@ p.email a:hover{
 div.mini-space{
     height: 20px;
 }
+
+div.div-lg-6.text-lg-left.laptop-text{
+padding-left: 04%;
+}
+
+div.laptop{
+    width:44%;
+    padding-left: 10%;
+}
+
+div.laptop img{
+    width:150%;
+}
+
+
+div.phone img{
+    width:80%;
+    padding-left: 30%;
+}
+
+div.phone-text h3{
+    font-size:1.5em;
+    color:#000942;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+div.laptop-text h3{
+    font-size:1.5em;
+    color:#000942;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+div.laptop-text p{
+    
+}
+
+div.phone-text h6{
+    font-size:3.5em;
+    font-weight: 300;
+}
+
+div.laptop-text h6{
+    font-size:3.5em;
+    font-weight: 300;
+}
