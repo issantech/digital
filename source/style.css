@@ -175,6 +175,36 @@ footer{
         font-size: 1.8em;
     }
 
+    div.div-lg-6.text-lg-left.phone-text{
+        padding-left: 04%;
+        padding-top: 10%;
+
+    }
+
+    div.div-lg-4.laptop img{
+        width:240%;
+        padding-bottom:30%;
+    }
+
+    .div-lg-6.text-lg-left.laptop-text h3{
+        font-size: 1em;
+       }
+
+       .div-lg-6.text-lg-left.phone-text h3{
+        font-size: 1em;
+       } 
+       
+       
+       .div-lg-6.text-lg-left.phone-text h6{
+        font-size: 2em;
+       }
+
+
+
+    .div-lg-6.text-lg-left.laptop-text h6{
+     font-size: 2em;
+    }
+
     div.col-lg-4.pt-lg-4.vids{
         background-image: url("./img/Techy\ Women.png");
         background-size: cover;
@@ -477,6 +507,10 @@ div.laptop-text p{
 div.phone-text h6{
     font-size:3.5em;
     font-weight: 300;
+}
+
+div.carousel-item.text-center.testimony-1{
+    background-color: #ebebeb;
 }
 
 div.laptop-text h6{
