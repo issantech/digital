@@ -523,3 +523,9 @@ div.laptop-text h6{
     font-size:3.5em;
     font-weight: 300;
 }
+
+img.d-block.w-100.testy-1{
+    width: 100px !important;
+    height: auto;
+    
+}
