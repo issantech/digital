@@ -175,6 +175,10 @@ footer{
         font-size: 1.8em;
     }
 
+    .premiershow{
+       display: none;    
+    }
+
     div.div-lg-6.text-lg-left.phone-text{
         padding-left: 04%;
         padding-top: 10%;
@@ -199,6 +203,8 @@ footer{
         font-size: 2em;
        }
 
+
+      
 
 
     .div-lg-6.text-lg-left.laptop-text h6{
@@ -225,7 +231,7 @@ footer{
     }
 
     .formula-1{
-        padding-left: 80px ;
+        padding-left: 45px ;
         padding-bottom: 20px;
     }
 
