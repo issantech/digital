@@ -1,0 +1,531 @@
+
+
+html{
+    width: 100%;
+    font-family: 'Poppins,Lato';
+}
+
+nav.navbar.navbar-expand-lg.navbar-white{
+    transition: 0.3s;
+    }
+
+nav.navbar.navbar-expand-lg.navbar-white:hover{
+background-color: white !important;    
+transition-duration: 0.3s;
+}
+
+
+
+.mainview{
+    background-image: url("../source/img/IT\ Web\ Banner.jpg");
+    height: 400px;
+    background-size: cover;
+}
+
+a .nav-link{
+    color:white !important
+}
+
+h3.main-title{
+    font-family: "Poppins";
+    color:white;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.OtherWork{
+    display: none;
+}
+
+.OtherWork h3{
+    font-size: 2em;
+    font-family: 'Poppins';
+    color: #000942;
+
+}
+
+
+.OtherWork p{
+font-family: 'Poppins';
+    
+
+}
+
+.whoarewe h3{
+    font-size: 2em;
+    font-family: 'Poppins';
+    color: #000942;
+
+}
+
+.whoarewe{
+    
+    font-family: 'Poppins';
+    background-color: rgb(243, 243, 243);
+    padding-bottom: 1em;
+}
+
+.whoarewe p{
+    
+    font-family: 'Poppins';
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+a.nav-link:hover,li.nav-item:hover{
+    text-decoration: underline;
+    text-decoration-color: orange;
+    color:orange;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: 20px;
+}
+
+span.digital-focus{
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: 10px;
+}
+
+.space{
+    height: 50px;
+}
+
+.row{
+    margin: 0px;
+}
+.main-work h3{
+    color: #000942;
+    font-family: 'Poppins';
+    padding-top: 6px;
+    font-size: 01.5vw;
+    
+}
+
+.first-footer a{
+color:white;
+font-family: 'Poppins';
+font-weight: 300;
+}
+
+.first-footer a:hover{
+    text-decoration: underline;
+    text-decoration-color: orange;
+    
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: 20px;
+}
+
+@media(min-width:1366px){
+    h3.main-title{
+        padding-top: 100px;
+    }
+
+  
+
+    .software p, .web p{
+        text-align: left;
+        font-size: 0.9em;
+        padding-left:10px;
+        font-family: 'Poppins';
+        font-weight: 300;
+        color:black
+    }
+
+    .custom{
+        text-decoration-color: orange;
+    }
+}
+
+
+
+.high-space{
+    height:200px
+}
+
+.location{
+font-family: 'Poppins';
+font-size: 15px;
+color: #000942;
+}
+
+.number{
+    font-family: 'Poppins';
+font-size: 25px;
+color: #000942;
+}
+
+.number:hover{
+    font-family: 'Poppins';
+font-size: 25px;
+color: #000942;
+text-decoration: none;
+text-decoration-color: #000942;
+}
+
+footer{
+    background-color:#000942;
+    height:300px;
+}
+
+@media(max-width:600px){
+    h3.main-title{
+        padding-left: 05vw;
+        padding-top: 120px;
+        font-size: 1.8em;
+    }
+
+    .premiershow{
+       display: none;    
+    }
+
+    div.div-lg-6.text-lg-left.phone-text{
+        padding-left: 04%;
+        padding-top: 10%;
+
+    }
+
+    div.div-lg-4.laptop img{
+        width:240%;
+        padding-bottom:30%;
+    }
+
+    .div-lg-6.text-lg-left.laptop-text h3{
+        font-size: 1em;
+       }
+
+       .div-lg-6.text-lg-left.phone-text h3{
+        font-size: 1em;
+       } 
+       
+       
+       .div-lg-6.text-lg-left.phone-text h6{
+        font-size: 2em;
+       }
+
+
+      
+
+
+    .div-lg-6.text-lg-left.laptop-text h6{
+     font-size: 2em;
+    }
+
+    div.col-lg-4.pt-lg-4.vids{
+        background-color: #000942;
+        background-size: cover;
+        background-position: right;
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 200px;
+        }
+
+    h3.action{
+        padding-top: 1em !important;
+        font-size: 1em !important;
+    }
+
+
+    .col-lg-6{
+        max-width: 56%;
+    }
+
+    .formula-1{
+        padding-left: 10px ;
+        padding-bottom: 20px;
+    }
+
+    div.img-fluid.softdev img{
+        height:50vw !important;
+        width:auto;
+    }
+
+    .mainview{
+        background-image: url("./img/IssanMobileCover.png");
+        background-size: cover;
+        background-repeat: no-repeat !important;
+    }
+    .whoarewe p{
+    
+        font-family: 'Poppins';
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .main-work h3{
+        color: #000942;
+        font-family: 'Poppins';
+        font-size: 4vw;
+        text-align: center;
+        
+    }
+
+    .digital-trans.text-center.pt-lg-3.pb-lg-3 {
+        padding-left: 02vw;
+        padding-right: 02vw;
+        padding-bottom: 3em;
+        padding-top: 3em;
+    }
+
+    div.img-fluid.softdev img{
+        height:18.6vw;
+        width:auto;
+        padding-bottom: 20px;
+        
+    }
+
+    div.img-fluid.softdev{
+        padding-top:40px !important;
+    }
+
+    footer{
+        background-color:#000942;
+        height:400px;
+    }
+}
+
+
+
+.essential-1{
+    background-color: #ffffff;
+    background-size: cover;
+    height: 70px;
+    animation-name: fadeIn;
+    padding-bottom: 80px;
+    transition: 0.3s
+
+}
+
+.essential-1:hover{
+    background-color: #000942;
+    background-size: cover;
+    color:white;
+    height: 50px;
+    
+
+}
+
+.essential-1 h3{
+    
+    font-weight:500;
+    padding-top:0.5em;
+    font-family: 'Poppins'
+    
+}
+
+.essential-m:hover{
+    background-color: #000942;
+    background-size: cover;
+    color:white;
+    height: 50px;
+    
+
+}
+
+
+div.img-fluid.softdev img{
+    height:18.6vw;
+    width:auto;
+}
+
+.digital-trans{
+    
+    background-color: rgb(243, 243, 243);
+}
+
+.digital-trans h3{
+    font-family: 'Poppins';
+    color: #000942;
+}
+
+.digital-trans.text-center.pt-lg-3.pb-lg-3 {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+
+.showcase{
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(0, 91, 109) 100%); 
+    height: 50rem;
+}
+
+.digital-btn{
+    border-radius: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+    
+}
+.digital-btn:hover{
+    background-color: rgb(255, 0, 55);
+    border-color: rgb(255, 0, 55);
+}
+
+
+/*Hover Underline Animate*/
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: orange;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom right;
+}
+
+p.number a{
+    color: white;
+}
+
+p.number a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+p.location{
+    color:white;
+}
+
+.card-title{
+    font-family: 'Poppins';
+}
+
+
+.premiershow{
+    height: 300px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%); 
+}
+
+h3.action{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    padding-top: 2em;
+}
+
+p.action{
+    color:white;
+    font-size: 0.8em;
+}
+
+button.btn.btn-primary{
+    border-radius: 40px;
+    background-color: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+div.col-lg-4.pt-lg-4.vids{
+background-image: url("./img/Techy\ Women.png");
+background-size: cover;
+background-repeat: no-repeat;
+height: 300px;
+width: 200px;
+}
+
+@media(min-width:992px){
+.col-lg-6{
+    padding-left: 90px;
+    flex: none !important;
+    max-width: 56% !important;
+}
+
+
+}
+
+div.row.pl-xl-5.pitch{
+padding-left: 1rem !important;
+}
+
+p.email a{
+    font-family: "Poppins";
+    color:white !important;
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+p.email a:hover{
+    text-decoration: none;
+}
+
+.testimony-1 h3{
+    color: #000942;
+    font-family: 'Poppins';
+}
+
+div.mini-space{
+    height: 20px;
+}
+
+div.div-lg-6.text-lg-left.laptop-text{
+padding-left: 04%;
+}
+
+div.laptop{
+    width:44%;
+    padding-left: 10%;
+}
+
+div.laptop img{
+    width:150%;
+}
+
+
+div.phone img{
+    width:80%;
+    padding-left: 30%;
+}
+
+div.phone-text h3{
+    font-size:1.5em;
+    color:#000942;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+div.laptop-text h3{
+    font-size:1.5em;
+    color:#000942;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+div.laptop-text p{
+    
+}
+
+div.phone-text h6{
+    font-size:3.5em;
+    font-weight: 300;
+}
+
+div.carousel-item.text-center.testimony-1{
+    background-color: #ebebeb;
+}
+
+div.laptop-text h6{
+    font-size:3.5em;
+    font-weight: 300;
+}
+
+img.d-block.w-100.testy-1{
+    width: 100px !important;
+    height: auto;
+    
+}
