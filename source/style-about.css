@@ -17,7 +17,7 @@ transition-duration: 0.3s;
 
 
 .mainview{
-    background-image: url("../source/img/IT\ Web\ Banner.jpg");
+    background-image: url("../source/img/About-cover.png");
     height: 400px;
     background-size: cover;
 }
@@ -192,6 +192,7 @@ footer{
 
     .div-lg-6.text-lg-left.laptop-text h3{
         font-size: 1em;
+        
        }
 
        .div-lg-6.text-lg-left.phone-text h3{
@@ -475,6 +476,7 @@ div.mini-space{
 
 div.div-lg-6.text-lg-left.laptop-text{
 padding-left: 04%;
+padding-top: 76px;
 }
 
 div.laptop{
