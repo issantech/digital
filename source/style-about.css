@@ -491,19 +491,24 @@ div.laptop{
     padding-left: 10%;
 }
 
+div.laptop img{
+    width:140%;
+  
+}
+
 div.laptop-text p{
     width:90%;
     
 }
 
-div.laptop img{
-    width:150%;
+div.div-lg-4.phone {
+    width: 50% !important; 
 }
 
 
 div.phone img{
-    width:80%;
-    padding-left: 30%;
+    width:95%;
+    padding-left: 10%;
 }
 
 div.phone-text h3{
