@@ -179,6 +179,9 @@ footer{
         font-size: 1.8em;
     }
 
+    div.showcase{
+        display: none;
+    }
     .premiershow{
        display: none;    
     }
@@ -352,8 +355,8 @@ div.img-fluid.softdev img{
 
 
 .showcase{
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(0, 91, 109) 100%); 
-    height: 50rem;
+    background: linear-gradient(180deg,  rgb(74, 159, 255) 35%, rgb(0, 213, 255) 100%); 
+    height: 10rem;
 }
 
 .digital-btn{
