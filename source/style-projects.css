@@ -17,7 +17,7 @@ transition-duration: 0.3s;
 
 
 .mainview{
-    background-image: url("../source/img/Contact-cover.png");
+    background-image: url("../source/img/Projects-cover.png");
     height: 400px;
     background-size: cover;
 }
@@ -489,24 +489,6 @@ padding-top: 76px;
 width:700px
 }
 
-div.contact{
-    width:44%;
-    padding-left: 10%;
-}
-
-div.contact h3{
-   font-family: 'Poppins';
-   color: #000942;
-}
-
-div.contact a{
-    font-family: 'Poppins';
-    color: #000942;
- }
-
-
-
-
 div.laptop{
     width:44%;
     padding-left: 10%;
@@ -577,8 +559,4 @@ div.whatwedo{
     background-image: linear-gradient(to right, #005b97, #0aa0db);
     padding-bottom: 05%;
     padding-top: 05%;
-}
-
-.bg-form{
-    background-color: #f1f1f1;
 }
