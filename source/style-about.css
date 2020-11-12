@@ -560,3 +560,15 @@ div.whatwedo{
     padding-bottom: 05%;
     padding-top: 05%;
 }
+
+
+div.robot img{
+    width:30%;
+    
+}
+
+div.robot h6{
+    font-family: 'Poppins';
+    font-size: 0.9em;
+    font-weight: 600;
+}
