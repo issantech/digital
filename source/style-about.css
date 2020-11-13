@@ -125,6 +125,12 @@ font-weight: 300;
         padding-top: 100px;
     }
 
+    div.div-lg-6.text-lg-left.phone-text{
+        width:40%;
+    }
+    div.div-lg-4.univers.univers-text{
+        width:40%;
+    }
   
 
     .software p, .web p{
