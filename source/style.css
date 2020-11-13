@@ -175,6 +175,11 @@ footer{
         font-size: 1.8em;
     }
 
+    .showcase{
+        background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(0, 91, 109) 100%); 
+        height:80rem;
+    }
+
     .premiershow{
        display: none;    
     }
@@ -346,7 +351,7 @@ div.img-fluid.softdev img{
 
 .showcase{
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(0, 91, 109) 100%); 
-    height: 50rem;
+    height: 57rem;
 }
 
 .digital-btn{
@@ -529,3 +534,19 @@ img.d-block.w-100.testy-1{
     height: auto;
     
 }
+
+img.web-showcase{
+    width: 60% !important;
+}
+
+div.col-lg-4.show h3{
+font-family: 'Poppins' !important;
+color: white;
+font-size: 1.5em !important;
+}
+
+div.col-lg-4.show p{
+    font-family: 'Poppins' !important;
+    color: white !important;
+    font-weight: 300 !important;
+    }
