@@ -178,6 +178,7 @@ footer{
     .showcase{
         background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(0, 91, 109) 100%); 
         height:80rem;
+        display:none
     }
 
     .premiershow{
@@ -449,6 +450,10 @@ width: 200px;
     padding-left: 90px;
     flex: none !important;
     max-width: 56% !important;
+}
+
+.showcase{
+    display: none;
 }
 
 
