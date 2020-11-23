@@ -278,7 +278,7 @@ footer{
     }
 
     .mainview{
-        background-image: url("../img/Projects-cover.jpg");
+        background-image: url("../img/Showcase-cover.jpg");
         background-size: cover;
         background-repeat: no-repeat !important;
     }
@@ -640,7 +640,7 @@ transition-duration: 0.3s;
 
 
 .mainview{
-    background-image: url("../source/img/IT\ Web\ Banner.jpg");
+    background-image: url("../source/img/Showcase-cover.jpg");
     height: 500px;
     background-size: cover;
 }
