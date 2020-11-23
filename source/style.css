@@ -178,11 +178,11 @@ footer{
     .showcase{
         background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(0, 91, 109) 100%); 
         height:80rem;
-        display:none
+        
     }
 
     .premiershow{
-       display: none;    
+       
     }
 
     div.div-lg-6.text-lg-left.phone-text{
@@ -453,7 +453,7 @@ width: 200px;
 }
 
 .showcase{
-    display: none;
+    
 }
 
 
