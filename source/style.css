@@ -175,9 +175,18 @@ footer{
         font-size: 1.8em;
     }
 
+    div.row.pl-xl-4.pitch{
+        padding-left: 5rem !important;
+        }
+
+    div.col-lg-4.show {
+        padding-bottom: 20px;
+        
+        }
+
     .showcase{
         background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(0, 91, 109) 100%); 
-        height:80rem;
+        height:153rem !important
         
     }
 
@@ -459,8 +468,8 @@ width: 200px;
 
 }
 
-div.row.pl-xl-5.pitch{
-padding-left: 1rem !important;
+div.row.pl-xl-4.pitch{
+padding-left: 1rem;
 }
 
 p.email a{
@@ -554,4 +563,32 @@ div.col-lg-4.show p{
     font-family: 'Poppins' !important;
     color: white !important;
     font-weight: 300 !important;
+    }
+
+    a.action-feature{
+        color: #000942;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    a.action-feature:hover{
+        
+        list-style-type: none;
+    }
+
+    div.content-show{
+        padding-left: 100px;
+    }
+
+
+    div.col-lg-4.show{
+padding-bottom: 30px;
+    }
+
+    div.modal-header{
+        
+    padding-top: 0.2em;
+    padding-bottom: 0.3em;
+    padding-left: 0.3em;
+
     }
