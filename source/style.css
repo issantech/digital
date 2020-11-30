@@ -592,3 +592,16 @@ padding-bottom: 30px;
     padding-left: 0.3em;
 
     }
+
+
+    h5.modal-title{
+        font-family: 'Poppins';
+        color: #000942;
+        font-weight: 600;
+    }
+
+
+    div.modal-body{
+        font-family: 'Open Sans';
+        font-size: 0.86em ;
+    }
