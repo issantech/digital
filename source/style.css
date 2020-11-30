@@ -191,7 +191,7 @@ footer{
     }
 
     .premiershow{
-       
+       display:none;
     }
 
     div.div-lg-6.text-lg-left.phone-text{
@@ -604,4 +604,8 @@ padding-bottom: 30px;
     div.modal-body{
         font-family: 'Open Sans';
         font-size: 0.86em ;
+    }
+
+    .function.text-lg-left.pl-lg-2{
+        font-size: 0.85em;
     }
