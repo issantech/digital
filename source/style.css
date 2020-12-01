@@ -176,7 +176,7 @@ footer{
     }
 
     div.row.pl-xl-4.pitch{
-        padding-left: 5rem !important;
+        padding-left: 2 !important;
         }
 
     div.col-lg-4.show {
@@ -186,7 +186,7 @@ footer{
 
     .showcase{
         background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(0, 91, 109) 100%); 
-        height:153rem !important
+        height:135rem !important
         
     }
 
