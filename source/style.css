@@ -176,7 +176,7 @@ footer{
     }
 
     div.row.pl-xl-4.pitch{
-        padding-left: 2 !important;
+        padding-left: 2rem !important;
         }
 
     div.col-lg-4.show {
@@ -469,7 +469,7 @@ width: 200px;
 }
 
 div.row.pl-xl-4.pitch{
-padding-left: 1rem;
+padding-left: 0rem !important;
 }
 
 p.email a{
@@ -608,4 +608,9 @@ padding-bottom: 30px;
 
     .function.text-lg-left.pl-lg-2{
         font-size: 0.85em;
+    }
+
+
+    p.card-text{
+        font-size: 0.9em;
     }
